@@ -28,6 +28,25 @@ body {
   background-color: var(--dark-color);
 }
 
+@mixin shadow4 {
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 4px 4px 0px 0px rgba(255, 255, 255, 0.25);
+  }
+}
+@mixin shadow6 {
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 1);
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 6px 6px 0px 0px rgba(255, 255, 255, 0.25);
+  }
+}
+@mixin shadow8 {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 8px 8px 0px 0px rgba(255, 255, 255, 0.25);
+  }
+}
+
 // TYPOGRAPHY
 .heading-h1 {
   font-family: JetBrains Mono;

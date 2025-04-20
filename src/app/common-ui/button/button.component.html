@@ -1,0 +1,10 @@
+<button [class]="variants[variant]" [disabled]="disabled" (click)="onClick()">
+  <!-- Left section (optional) -->
+  <span *ngIf="leftSection">{{ leftSection }}</span>
+
+  <!-- Main label -->
+  {{ label }}
+
+  <!-- Right section (optional) -->
+  <span *ngIf="rightSection">{{ rightSection }}</span>
+</button>
