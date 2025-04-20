@@ -1,1 +1,221 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.cdnfonts.com/css/oddval");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+  --primary-color: rgba(174, 122, 255, 1);
+  --primary-hover-color: rgba(174, 122, 255, 0.2);
+  --primary-soft-color: rgba(174, 122, 255, 0.8);
+  --primary-yello-color: rgba(250, 232, 164, 1);
+  --primary-red-color: rgba(233, 152, 152, 1);
+  --primary-green-color: rgba(152, 233, 171, 1);
+  --primary-yellow-soft-color: rgb(250, 232, 164);
+  --primary-red-soft-color: rgb(233, 152, 152);
+  --primary-green-soft-color: rgb(152, 233, 171);
+  --gray-solid-color: rgba(95, 100, 109, 1);
+  --gray-soft-color: rgb(95, 100, 109, 0.85);
+  --gray-soft-color: rgb(95, 100, 109, 0.85);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-color);
+}
+
+// TYPOGRAPHY
+.heading-h1 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0px;
+}
+.heading-h2 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0px;
+}
+
+.heading-h3 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0px;
+}
+
+.heading-h4 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.heading-h5 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.heading-h6 {
+  font-family: JetBrains Mono;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.bold-16 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.medium-16 {
+  font-family: JetBrains Mono;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.regular-16 {
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.bold-14 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+
+.medium-14 {
+  font-family: JetBrains Mono;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+
+.regular-14 {
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+}
+
+.bold-12 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.medium-12 {
+  font-family: JetBrains Mono;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.regular-12 {
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.button-12 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.button-14 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.button-16 {
+  font-family: JetBrains Mono;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-1 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-2 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-3 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-4 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-5 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.talk-heading-6 {
+  font-family: Oddval;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
